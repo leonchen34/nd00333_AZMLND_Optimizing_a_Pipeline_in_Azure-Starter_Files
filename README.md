@@ -95,6 +95,8 @@ We could create several pipline steps for the experiments. One such pipeline ste
 ## Proof of cluster clean up
 **If you did not delete your compute cluster in the code, please complete this section. Otherwise, delete this section.**
 **Image of cluster marked for deletion**
+<br>
+
 At the end of the Code, did a compute_target.get() before and after compute_target.delete(). The after get() proved the cluster clean up. 
 I also double checked from azureml studio Compute->Compute Clusters and make sure the cluster was gone after executing compute_target.delete().
 
