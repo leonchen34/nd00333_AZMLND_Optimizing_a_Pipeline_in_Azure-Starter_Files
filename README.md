@@ -11,7 +11,6 @@ This model is then compared to an Azure AutoML run.
 - [HyperDriveConfig Class](https://docs.microsoft.com/en-us/python/api/azureml-train-core/azureml.train.hyperdrive.hyperdriveconfig?view=azure-ml-py)
 - [How to tune hyperparamters](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-tune-hyperparameters)
 
-
 ## Summary
 
 This dataset contains data about a bank marketing campaign. We seek to predict if the client will subscribe to a term deposit with the bank, i.e. the feature column "y".
@@ -64,7 +63,6 @@ MaxAbsScaler, LightGBM: weight 0.4 with the following hyper parameters:
             "min_data_in_leaf": 20
         },
         "prepared_kwargs": {}
-
 
 ## Pipeline comparison
 
