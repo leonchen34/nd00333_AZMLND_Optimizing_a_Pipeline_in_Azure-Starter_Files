@@ -16,7 +16,6 @@ This model is then compared to an Azure AutoML run.
 
 This dataset contains data about a bank marketing campaign. We seek to predict if the client will subscribe to a term deposit with the bank, i.e. the feature column "y".
 
-
 The best performing model was a VotingEnsemble picked by AutoML.
 
 ## Scikit-learn Pipeline
@@ -80,7 +79,6 @@ With AutoML, for certain class of problems, it tries different algorithms and se
 ## Future work
 
 We could create several pipline steps for the experiments. One such pipeline step is to do data download and clean up. After this step runs once, its output data will be used for both hyper parameter tunning step runs and AutoML step runs.
-
 
 ## Proof of cluster clean up
 
